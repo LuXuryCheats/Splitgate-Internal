@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MASM Include="asms.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{e3d08a4f-c212-4326-a9f8-822dcb7e6f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{234b0936-d1d4-4641-91dc-c6583cb4029d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{8a052074-d705-4949-bee4-e73bb8052862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\MinHook.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="split_sdk\SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="split_sdk\SDK\BasicHelper.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="split_sdk\SDK\CoreUObject_classes.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="split_sdk\SDK\CoreUObject_parameters.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="split_sdk\SDK\CoreUObject_structs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="split_sdk\SDK\Engine_classes.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="split_sdk\SDK\BasicHelper.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="split_sdk\SDK\CoreUObject_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="split_sdk\SDK\Engine_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="split_sdk\SDK\PortalWars_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="imgui\minhook.lib">
+      <Filter>ImGui</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
