@@ -5,4 +5,6 @@
 - Update Signatures/Offsets
 - Add Offsets needed
 - this uses steam hook
-- coming soon
+
+
+- ive left cheating community this is why i leaked this
